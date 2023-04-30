@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Fun Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f9e6ff;
+			color: #333;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			font-size: 3em;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			color: #800080;
+		}
+
+		p {
+			font-size: 1.5em;
+			line-height: 1.5;
+			margin: 0 0 20px;
+			padding: 0 10px;
+			text-align: left;
+		}
+
+		a {
+			color: #800080;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #ff0080;
+			text-decoration: underline;
+		}
+
+		.container {
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 30px 20px;
+		}
+
+		.image {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+
+		.button {
+			display: inline-block;
+			background-color: #800080;
+			color: #fff;
+			font-size: 1.2em;
+			padding: 10px 20px;
+			border-radius: 5px;
+			margin: 20px 10px;
+			text-decoration: none;
+			transition: background-color 0.2s ease;
+		}
+
+		.button:hover {
+			background-color: #ff0080;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to my fun website!</h1>
+		<img class="image" src="https://www.w3schools.com/w3images/fjords.jpg" alt="Beautiful fjord">
+		<p>Hi there! This is a website made just for you. You can find lots of fun stuff here, like:</p>
+		<ul>
+			<li><a href="#">Games</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Art projects</a></li>
+			<li><a href="#">Science experiments</a></li>
+			<li><a href="#">And much more!</a></li>
+		</ul>
+		<a href="#" class="button">Let's get started!</a>
+	</div>
+</body>
+</html>
